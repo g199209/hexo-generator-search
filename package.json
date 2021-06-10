@@ -1,5 +1,5 @@
 {
-  "name": "hexo-generator-search",
+  "name": "hexo-generator-search-minify",
   "version": "2.4.3",
   "description": "Seach generator plugin for Hexo",
   "main": "index",
@@ -14,7 +14,7 @@
     "search",
     "generator"
   ],
-  "author": "wzpan <m@hahack.com> (https://github.com/wzpan)",
+  "author": "Gao Mingfei <g199209@gmail.com> (https://github.com/g199209)",
   "license": "MIT",
   "dependencies": {
     "nunjucks": "^3.0.1",
@@ -23,22 +23,21 @@
   "bugs": {
     "url": "https://github.com/Wzpan/hexo-generator-search/issues"
   },
-  "homepage": "https://github.com/Wzpan/hexo-generator-search#readme",
+  "homepage": "https://github.com/g199209/hexo-generator-search#readme",
   "_npmVersion": "2.11.0",
   "_nodeVersion": "0.12.4",
   "_npmUser": {
-    "name": "wzpan",
-    "email": "m@hahack.com"
+    "name": "g199209",
+    "email": "g199209@gmail.com"
   },
   "maintainers": [
-    "maoshuhao <326810048@qq.com>",
-    "wzpan <m@hahack.com>"
+    "Gao Mingfei <g199209@gmail.com>"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Wzpan/hexo-generator-search.git"
+    "url": "git+https://github.com/g199209/hexo-generator-search.git"
   }
 }
