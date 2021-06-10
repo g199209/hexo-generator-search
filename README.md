@@ -1,3 +1,18 @@
+
+Modify from [hexo-generator-search](https://github.com/wzpan/hexo-generator-search)
+
+Remove code area and all html tag in generated XML file.
+
+在原始版本上做了以下一些修改：
+
+1. 生成的 XML 文件 content 部分去掉了代码及 HTML Tag，这有助于减小文件体积，且可以提高搜索时的准确度。
+
+打包成了一个新的 npm package：
+
+```
+hexo-generator-search-minify
+```
+
 # hexo-generator-search
 
 [![npm](https://img.shields.io/npm/v/hexo-generator-search.svg)](https://www.npmjs.com/package/hexo-generator-search)
